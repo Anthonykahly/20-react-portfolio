@@ -7,9 +7,15 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  /*Setting name at the top of navbar*/
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#161A30] text-gray-300">
-      <div>{/* insert logo */}</div>
+      <div>
+        <h1 className="font-extrabold">Anthony Kahly</h1>
+        <h2 className="font-extrabold text-[#84878d]">
+          Full Stack Web Developer.
+        </h2>
+      </div>
 
       {/* main navigation menu */}
 
